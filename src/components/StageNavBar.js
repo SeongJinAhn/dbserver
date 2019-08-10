@@ -17,17 +17,17 @@ export default (props) => {
 
       <li className="nav-divider"></li>
       <li className="nav-header">Projects</li>
-      <NavLink title="Samsung" url="/react/" location={location} />
-      <NavLink title="KEPCO" url="/react-router/" location={location} />
-      <NavLink title="Bio Project" url="/redux/" location={location} />
+      <NavLink title="KEPCO" url="/kepco/" location={location} />
+      <NavLink title="Bio Project" url="/bio/" location={location} />
+      <NavLink title="Samsung" url="/samsung/" location={location} />
       {/*<NavLink title="Core Libraries" url="/libraries/" location={location} />*/}
 
       <li className="nav-divider"></li>
       <li className="nav-header">Publication</li>
-      <NavLink title="International Journal" url="/anatomy/" location={location} />
-      <NavLink title="International Conference" url="/building/" location={location} />
-      <NavLink title="Domestic Journal" url="/publishing/" location={location} />
-      <NavLink title="Domestic Conference" url="/publishing/" location={location} />
+      <NavLink title="International Journal" url="/intjournal/" location={location} />
+      <NavLink title="International Conference" url="/intconference/" location={location} />
+      <NavLink title="Domestic Journal" url="/domjournal/" location={location} />
+      <NavLink title="Domestic Conference" url="/domconference/" location={location} />
       <li role="separator" className="divider"></li>
       <li className="nav-divider"></li>
  

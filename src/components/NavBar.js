@@ -45,13 +45,13 @@ export default (props) => {
                 <li className="dropdown-category">
                   Government Project
                 </li>
-                  <NavLink title="KEPCO" url="/phd/" location={location} />
-                  <NavLink title="Bio Project" url="/ms/" location={location} />
+                  <NavLink title="KEPCO" url="/kepco/" location={location} />
+                  <NavLink title="Bio Project" url="/bio/" location={location} />
                   {/*<NavLink title="Core Libraries" url="/libraries/" location={location} />*/}
                 <li className="dropdown-category">
                   Industrial Project
                 </li>
-                <NavLink title="Samsung" url="/professor/" location={location} />
+                <NavLink title="Samsung" url="/samsung/" location={location} />
               </ul>
             </li>
             <NavLink layout="photo" title="Photo" url="/quickstart/" location={location} />
@@ -63,15 +63,15 @@ export default (props) => {
                 <li className="dropdown-category">
                   International
                 </li>
-                <NavLink title="Jounal" url="/react/" location={location} />
-                <NavLink title="Conference" url="/react-router/" location={location} />
+                <NavLink title="Jounal" url="/intjournal/" location={location} />
+                <NavLink title="Conference" url="/intconference/" location={location} />
                 {/*<NavLink title="Core Libraries" url="/libraries/" location={location} />*/}
                 <li role="separator" className="divider"></li>
                 <li className="dropdown-category">
                   Domestic
                 </li>
-                <NavLink title="Jounal" url="/react/" location={location} />
-                <NavLink title="Conference" url="/react-router/" location={location} />
+                <NavLink title="Jounal" url="/domjournal/" location={location} />
+                <NavLink title="Conference" url="/domconference/" location={location} />
               </ul>
             </li>
             <li>
