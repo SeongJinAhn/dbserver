@@ -1,20 +1,21 @@
 import React from 'react';
-import {BrowserRouter, HashRouter, Route} from 'react-router-dom';
+import { Button } from 'semantic-ui-react'
+import {Link,BrowserRouter, HashRouter, Route} from 'react-router-dom';
 import Home from './components/Home';
-import Member from './components/Members';
-import Research from './components/Researchs';
-import Publication from './components/Publications';
-import Photo from './components/Photo';
+import MenuMatch from './MenuMatch'
 
 const App = () => {
   return (
     <BrowserRouter>
       <div>
         <Route component = {Home} />
-        <Route path = "/members" component = {Member} />
-        <Route path = "/researchs" component = {Research} />
-        <Route path = "/publications" component = {Publication} />
-        <Route path = "/photos" component = {Photo} />
+        <Button><Link to = "/menu/members">Member</Link></Button>
+        <Button><Link to = "/menu/researchs">Research</Link></Button>
+        <Button><Link to = "/menu/publications">Publication</Link></Button>
+        <Button><Link to = "/menu/photos">Photo</Link></Button>
+      </div>
+      <div>
+        <Route path="/menu/:name" component={MenuMatch} />
       </div>
     </BrowserRouter>
   )
