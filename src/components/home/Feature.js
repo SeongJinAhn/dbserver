@@ -25,7 +25,9 @@ export default (props) => {
         <strong>{title}</strong>
       </p>
       <p className="featured-list-icon-text">
-        {description} <Link to={url} className="text-primary">Learn more</Link>.
+        {description} <br></br>
+
+        {url != undefined ? <a href={url} className="text-primary">Learn more</a> : console.log('111')}
       </p>
     </li>
   );

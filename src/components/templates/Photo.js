@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../../components/Layout';
+import Layout from '../Layout';
 import NavLink from '../NavLink';
 import NavLinkPlaceholder from '../NavLinkPlaceholder';
 import '../../assets/less/docs.less';
@@ -11,19 +11,19 @@ export default (props) => {
     <Layout>
       <div className="docs-header" id="content">
         <div className="container">
-          <h1>Ph.D Students</h1>
+          <h1>Photo</h1>
           <p>
-            The members of KAIST DBserver Lab.
+            The memories of KAIST DBserver Lab.
           </p>
-
         </div>
       </div>
       <div className="container">
         <div className="docs-content">
           <ul id="markdown-toc">
-            <NavLink title="HyunJi Jung" url="/phd/" />
-            <NavLink title="JungHyuck Suh" url="/phd/" />
-            <NavLink title="KwangHee Lee" url="/phd/" />
+            <NavLink title="2019" url="/photo/" />
+            <NavLink title="2018" url="/photo/" />
+            <NavLink title="2017" url="/photo/" />
+            <NavLink title="2016" url="/photo/" />
           </ul>
           {children}
         </div>

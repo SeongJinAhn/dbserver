@@ -10,7 +10,7 @@ export default (props) => {
             <div className="col-md-12 text-center">
               <h1 className="block-title m-b-sm">KAIST Database Laboratory</h1>
               <p className="lead m-b-md text-muted">
-                Research group for data management.
+                We are One
                 <br/>
                 Since <strong>1984</strong>
               </p>

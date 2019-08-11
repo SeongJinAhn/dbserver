@@ -10,41 +10,25 @@ export default (props) => {
             <h6 className="m-b text-uppercase">About</h6>
             <ul className="list-unstyled list-spaced">
               <li className="text-muted">
-                Lore is a convention-driven framework for React, built with love by {' '}
-                <a href="https://twitter.com/_jchansen" style={{ color: 'white' }}>@_jchansen</a> and {' '}
-                <a href="https://twitter.com/mikrofusion" style={{ color: 'white' }}>@mikrofusion</a>, to
-                help you launch your ideas sooner and scale them into legend.
+                KAIST E3-1 3406 <br></br>
+                If you have any question, please ask it to {' '}
+                <a href="mailto:jhsuh@dbserver.kaist.ac.kr" style={{ color: 'white' }}>@JungHyuk Suh</a> <br></br>
+                made by <a href="http://github.com/SeongJinAhn" style={{ color: 'white' }}>@SeongJin Ahn</a> <br></br>
               </li>
             </ul>
           </div>
-          <div className="col-sm-3 col-sm-offset-1">
-            <h6 className="m-b text-uppercase">Links</h6>
-            <ul className="list-unstyled list-spaced">
-              <li className="text-muted">
-                <Link to="/philosophy/">Philosophy</Link>
-              </li>
-              <li className="text-muted">
-                <Link to="/features/">Features</Link>
-              </li>
-              <li className="text-muted">
-                <Link to="/quickstart/">Quickstart</Link>
-              </li>
-              <li className="text-muted">
-                <Link to="/examples/">Examples</Link>
-              </li>
-              <li className="text-muted">
-                <Link to="/cli/">CLI</Link>
-              </li>
-            </ul>
+
+          <div className="col-sm-3 col-sm-offset-1">            
           </div>
+
           <div className="col-sm-3">
             <h6 className="m-b text-uppercase">Connect</h6>
             <ul className="list-unstyled list-spaced">
               <li className="text-muted">
-                <a href="https://github.com/SeongJinAhn">GitHub</a>
+                <a href="https://cs.kaist.ac.kr">CS</a>
               </li>
               <li className="text-muted">
-                <a href="https://facebook.com/loreframework">Twitter</a>
+                <a href="https://dbserver.kaist.ac.kr/wiki">For Lab Members</a>
               </li>
             </ul>
           </div>

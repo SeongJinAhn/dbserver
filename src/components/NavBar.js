@@ -33,8 +33,7 @@ export default (props) => {
                 <NavLink title="Professors" url="/professor/" location={location} />
                 <NavLink title="Ph.D Students" url="/phd/" location={location} />
                 <NavLink title="M.S Students" url="/ms/" location={location} />
-                <NavLink title="Alumni" url="/webpack/" location={location} />
-                {/*<NavLink title="Core Libraries" url="/libraries/" location={location} />*/}
+                {/*<NavLink title="Alumni" url="/webpack/" location={location} />*/}
               </ul>
             </li>
             <li className="dropdown">
@@ -47,14 +46,13 @@ export default (props) => {
                 </li>
                   <NavLink title="KEPCO" url="/kepco/" location={location} />
                   <NavLink title="Bio Project" url="/bio/" location={location} />
-                  {/*<NavLink title="Core Libraries" url="/libraries/" location={location} />*/}
                 <li className="dropdown-category">
                   Industrial Project
                 </li>
                 <NavLink title="Samsung" url="/samsung/" location={location} />
               </ul>
             </li>
-            <NavLink layout="photo" title="Photo" url="/quickstart/" location={location} />
+            <NavLink layout="photo" title="Photo" url="/photo/" location={location} />
             <li className="dropdown">
               <a href="#" className="dropdown-toggle" data-toggle="dropdown">
                 Publications<span className="caret" />
