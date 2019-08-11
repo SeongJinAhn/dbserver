@@ -14,10 +14,8 @@ export default (props) => {
     <Layout>
       <Hero />
       <Section1 />
-      <Section1b />
       <GettingStartedEasy />
       <Features1 />
-      <Features2 />
       <Ribbon />
     </Layout>
   );

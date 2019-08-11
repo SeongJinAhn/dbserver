@@ -28,30 +28,30 @@ export default class HTML extends React.Component {
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-          <title>Lore | Convention-driven Framework for React</title>
+          <title>Database Lab | KAIST Dbserver</title>
 
           {/* Fonts */}
           <link href="https://fonts.googleapis.com/css?family=Lora:400,400italic|Work+Sans:300,400,500,600" rel="stylesheet" />
 
           {/* Twitter Card data */}
           <meta name="twitter:card" content="summary" />
-          <meta name="twitter:title" content="Lore" />
-          <meta name="twitter:description" content="Convention-driven framework for React. Built on Webpack, Redux and React Router." />
+          <meta name="twitter:title" content="Database Lab" />
+          <meta name="twitter:description" content="KAIST Dbserver" />
           <meta name="twitter:creator" content="@loreframework" />
           <meta name="twitter:image:src" content="http://www.lorejs.org/assets/images/social/lore-social-image.jpg" />
 
           {/* Open Graph data */}
-          <meta property="og:title" content="Lore" />
+          <meta property="og:title" content="Database Lab" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="http://www.lorejs.org/" />
           <meta property="og:image" content="http://www.lorejs.org/assets/images/social/lore-social-image-large.jpg" />
-          <meta property="og:description" content="Convention-driven framework for React. Built on Webpack, Redux and React Router." />
+          <meta property="og:description" content="KAIST Dbserver. built by SJAhn" />
           <meta property="og:site_name" content="Lore" />
           <meta name="viewport" content="width=device-width" />
 
           {/* Schema.org markup for Google+ */}
-          <meta itemProp="name" content="Lore" />
-          <meta itemProp="description" content="Convention-driven framework for React. Built on Webpack, Redux and React Router." />
+          <meta itemProp="name" content="Database Lab" />
+          <meta itemProp="description" content="KAIST Dbserver." />
           <meta itemProp="image" content="http://www.lorejs.org/assets/images/social/lore-social-image-large.jpg" />
 
           {/* Favicons */}

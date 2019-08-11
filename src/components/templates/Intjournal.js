@@ -11,16 +11,19 @@ export default (props) => {
     <Layout>
       <div className="docs-header" id="content">
         <div className="container">
-          <h1>React</h1>
+          <h1>International Journal</h1>
           <p>
-            Component library for Lore
+            Since 2015
           </p>
         </div>
       </div>
       <div className="container">
         <div className="docs-content">
           <ul id="markdown-toc">
-            <NavLink title="Introduction" url="/intjournal/" />
+            <NavLink title="International Journal" url="/intjournal/" />
+            <NavLink title="International Conference" url="/intconference/" />
+            <NavLink title="Domestic Journal" url="/domjournal/" />
+            <NavLink title="Domestic Conference" url="/domconference/" />
 
             {/*<li className="doc-section">Section</li>*/}
             {/*<NavLink title="React Router" url="/libraries/react-router/" />*/}

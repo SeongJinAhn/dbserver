@@ -12,16 +12,11 @@ export default (props) => {
 
         <div className="row" style={{ paddingTop: '32px', paddingBottom: '24px' }}>
           <div className="col-sm-8 col-sm-offset-2 text-center">
-            <h6 className="text-muted text-uppercase">Heavily reduced learning curve</h6>
             <h3 className="m-t-0">
-              Preconfigured with <strong style={{ textDecoration: 'underline' }}>sensible defaults</strong>.
+              Ongoing Projects
             </h3>
             <p className="lead m-b-md">
-              For each of the libraries Lore is built on, we looked at what were the most common tasks and challenges in
-              working with them, and then integrated functionality into Lore to improve that experience.
-
-              Behavior for all libraries can also be easily tailored through simple config files.
-            </p>
+            We have recently worked on include lifelog management, query processing in wireless sensor networks, data stream processing, heterogeneous DB integration, business process management, Semantic Web, spatial data management, large knowledgebase processing, XML data management, and data warehousing/OLAP. A few R&D issues we currently focus on are described in more detail below.            </p>
           </div>
         </div>
 
@@ -30,17 +25,17 @@ export default (props) => {
             <ul className="featured-list featured-list-bordered">
               <Feature
                 icon="folder"
-                title="Project Template"
+                title="Samsung Project"
                 description="Easily create new projects using Lore's CLI, preconfigured with everything you need to get started building React applications."
-                url="/cli/lore-generate-new/"
+                url="/samsung/"
               />
               <Feature
                 imageSrc={reduxLogo}
                 imageHeight="60px"
                 imageMarginBottom="20px"
-                title="Redux"
+                title="KEPCO"
                 description="Lore uses conventions to provide overridable blueprints for actions and reducers, along with a decorator that allows components to declare the data they need."
-                url="/features/core/redux/"
+                url="/kepco/"
               />
             </ul>
           </div>
@@ -51,17 +46,17 @@ export default (props) => {
                 imageSrc={reactLogo}
                 imageHeight="64px"
                 imageMarginBottom="14px"
-                title="React"
+                title="KEPCO"
                 description="Lore automatically mounts the application to the DOM, and subscribes the app to the store so components automatically update when data changes."
-                url="/features/core/react/"
+                url="/kepco/"
               />
               <Feature
                 imageSrc={reactRouterLogo}
                 imageHeight="30px"
                 imageMarginBottom="16px"
-                title="Routing"
+                title="Bio Prject"
                 description="React-router preintegrated into project, easily configured, and routes are clearly exposed at the root of the project."
-                url="/features/core/react-router/"
+                url="/bio/"
               />
             </ul>
           </div>
@@ -72,9 +67,9 @@ export default (props) => {
                 imageSrc={webpackLogo}
                 imageHeight="64px"
                 imageMarginBottom="14px"
-                title="Webpack"
+                title="Bio Project"
                 description="Common loaders pre-installed in config with a modular setup that allows you to override the Webpack config on a per-environment basis."
-                url="/features/core/webpack/"
+                url="/bio/"
               />
               <Feature
                 icon="cloud"

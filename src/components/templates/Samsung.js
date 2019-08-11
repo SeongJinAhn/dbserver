@@ -11,16 +11,17 @@ export default (props) => {
     <Layout>
       <div className="docs-header" id="content">
         <div className="container">
-          <h1>React</h1>
+          <h1>Samsung Project</h1>
           <p>
-            Component library for Lore
+            The project of KAIST DBserver Lab.
           </p>
         </div>
       </div>
       <div className="container">
         <div className="docs-content">
           <ul id="markdown-toc">
-            <NavLink title="Introduction" url="/samsung/" />
+            <NavLink title="JungHyuk Suh" url="/samsung/" />
+            <NavLink title="TaeWook Ha" url="/samsung/" />
 
             {/*<li className="doc-section">Section</li>*/}
             {/*<NavLink title="React Router" url="/libraries/react-router/" />*/}

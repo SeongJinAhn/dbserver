@@ -41,10 +41,10 @@ export default (props) => {
             <h6 className="m-b text-uppercase">Connect</h6>
             <ul className="list-unstyled list-spaced">
               <li className="text-muted">
-                <a href="https://github.com/lore/lore">GitHub</a>
+                <a href="https://github.com/SeongJinAhn">GitHub</a>
               </li>
               <li className="text-muted">
-                <a href="https://twitter.com/loreframework">Twitter</a>
+                <a href="https://facebook.com/loreframework">Twitter</a>
               </li>
             </ul>
           </div>
