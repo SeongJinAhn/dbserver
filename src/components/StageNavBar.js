@@ -11,9 +11,15 @@ export default (props) => {
   return (
     <ul className="nav nav-bordered nav-stacked">
       <li className="nav-header">People</li>
-      <NavLink layout="philosophy" title="Professors" url="/professor/" location={location} />
-      <NavLink layout="features" title="Ph.D Students" url="/phd/" location={location} />
-      <NavLink layout="quickstart" title="M.S Students" url="/ms/" location={location} />
+      <NavLink layout="Professor" title="Professors" url="/professor/" location={location} />
+      <NavLink layout="Ph.D Degree" title="Ph.D Students" url="/phd/" location={location} />
+      <NavLink layout="M.S Degree" title="M.S Students" url="/ms/" location={location} />
+
+      <li className="nav-divider"></li>
+      <li className="nav-header">Research</li>
+      <NavLink title="Query Process" url="/kepco/" location={location} />
+      <NavLink title="Group Recommendataion" url="/bio/" location={location} />
+      <NavLink title="Graph Management" url="/samsung/" location={location} />
 
       <li className="nav-divider"></li>
       <li className="nav-header">Projects</li>

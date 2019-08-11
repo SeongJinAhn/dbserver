@@ -11,7 +11,9 @@ export default (props) => {
           <div className="">
             <ul className="featured-list featured-list-bordered">
               <Feature
-                icon="folder"
+                imageSrc="folder"
+                imageHeight="60px"
+                imageMarginBottom="20px"
                 title="HyunJi Jung"
                 description="Research Interest : "
               />

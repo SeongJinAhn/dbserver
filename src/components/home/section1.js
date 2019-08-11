@@ -23,7 +23,7 @@ export default (props) => {
         <div className="row">
           <div className="col-sm-10 col-sm-offset-1 col-md-12 col-md-offset-0">
             <img className="happy laboratory" src={mainPic1} style={{ width: '49.5%' }} />
-            <img className="hidden-xs hidden-sm" src={mainPic2} style={{ width:'50%' }} />
+            <img className="happy laboratory22" src={mainPic2} style={{ width:'50%' }} />
           </div>
         </div>
 

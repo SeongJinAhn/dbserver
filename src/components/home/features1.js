@@ -2,6 +2,8 @@ import React from 'react';
 import Feature from './Feature';
 import reduxLogo from '../../assets/images/logos/redux-logo.png';
 import reactLogo from '../../assets/images/logos/react-logo.png';
+import samsungLogo from '../../assets/images/logos/samsung-logo.png';
+import kepcoLogo from '../../assets/images/logos/kepco_logo.png';
 import reactRouterLogo from '../../assets/images/logos/react-router-logo.png';
 import webpackLogo from '../../assets/images/logos/webpack-logo.png';
 
@@ -24,37 +26,23 @@ export default (props) => {
           <div className="col-sm-4">
             <ul className="featured-list featured-list-bordered">
               <Feature
-                icon="folder"
-                title="Samsung Project"
-                description="Easily create new projects using Lore's CLI, preconfigured with everything you need to get started building React applications."
-                url="/samsung/"
-              />
-              <Feature
-                imageSrc={reduxLogo}
-                imageHeight="60px"
+                imageSrc={kepcoLogo}
+                imageHeight="55px"
                 imageMarginBottom="20px"
                 title="KEPCO"
                 description="Lore uses conventions to provide overridable blueprints for actions and reducers, along with a decorator that allows components to declare the data they need."
                 url="/kepco/"
               />
-            </ul>
+              </ul>
           </div>
 
           <div className="col-sm-4">
             <ul className="featured-list featured-list-bordered">
               <Feature
-                imageSrc={reactLogo}
-                imageHeight="64px"
-                imageMarginBottom="14px"
-                title="KEPCO"
-                description="Lore automatically mounts the application to the DOM, and subscribes the app to the store so components automatically update when data changes."
-                url="/kepco/"
-              />
-              <Feature
                 imageSrc={reactRouterLogo}
                 imageHeight="30px"
                 imageMarginBottom="16px"
-                title="Bio Prject"
+                title="Bio Project"
                 description="React-router preintegrated into project, easily configured, and routes are clearly exposed at the root of the project."
                 url="/bio/"
               />
@@ -64,22 +52,12 @@ export default (props) => {
           <div className="col-sm-4">
             <ul className="featured-list featured-list-bordered">
               <Feature
-                imageSrc={webpackLogo}
-                imageHeight="64px"
-                imageMarginBottom="14px"
-                title="Bio Project"
+                imageSrc={samsungLogo}
+                imageHeight="25px"
+                imageMarginBottom="18px"
+                title="Samsung"
                 description="Common loaders pre-installed in config with a modular setup that allows you to override the Webpack config on a per-environment basis."
-                url="/bio/"
-              />
-              <Feature
-                icon="cloud"
-                title="Publishing"
-                description={(
-                  <span>
-                    Provides a built-in (but easily deleted) script for publishing to <a href="https://zeit.co/now">Now</a>, an excellent static hosting provider that provides free SSL certs and enables zero-downtime deploys.
-                  </span>
-                )}
-                url="/publishing/"
+                url="/samsung/"
               />
             </ul>
           </div>

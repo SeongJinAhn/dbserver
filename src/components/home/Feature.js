@@ -9,7 +9,8 @@ export default (props) => {
     imageMarginBottom,
     title,
     description,
-    url
+    url,
+    cv
   } = props;
 
   return (
@@ -27,7 +28,8 @@ export default (props) => {
       <p className="featured-list-icon-text">
         {description} <br></br>
 
-        {url != undefined ? <a href={url} className="text-primary">Learn more</a> : console.log('111')}
+        {url != undefined ? <Link to={url} className="text-primary">Learn more</Link> : console.log('111')}
+        {cv != undefined ? <a href={cv}>See more</a> : console.log('111')}
       </p>
     </li>
   );

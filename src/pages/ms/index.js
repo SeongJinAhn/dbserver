@@ -11,7 +11,7 @@ export default (props) => {
           <div className="">
             <ul className="featured-list featured-list-bordered">
               <Feature
-                icon="folder"
+                imageSrc="folder"
                 title="HeeSoo Yoon"
                 description="Research Interest : "
               />
@@ -28,7 +28,7 @@ export default (props) => {
                 imageMarginBottom="20px"
                 title="SeongJin Ahn"
                 description="Research Interest : "
-                url = "http://github.com/SeongJinAhn"
+                cv = "http://github.com/SeongJinAhn"
               />
             </ul>
           </div>

@@ -38,6 +38,19 @@ export default (props) => {
             </li>
             <li className="dropdown">
               <a href="#" className="dropdown-toggle" data-toggle="dropdown">
+                Research<span className="caret" />
+              </a>
+              <ul className="dropdown-menu">
+                <li className="dropdown-category">
+                  Our Research Area
+                </li>
+                <NavLink title="Query Process" url="/kepco/" location={location} />
+                <NavLink title="Group Recommendation" url="/bio/" location={location} />
+                <NavLink title="Graph Management" url="/samsung/" location={location} />
+              </ul>
+            </li>
+            <li className="dropdown">
+              <a href="#" className="dropdown-toggle" data-toggle="dropdown">
                 Project<span className="caret" />
               </a>
               <ul className="dropdown-menu">

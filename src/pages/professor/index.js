@@ -12,7 +12,7 @@ export default (props) => {
         <div className="">
           <ul className="featured-list featured-list-bordered">
             <Feature
-              icon="folder"
+              imageSrc="folder"
               imageHeight="80px"
               imageMarginBottom="20px"
               title="YoonJoon Lee"
