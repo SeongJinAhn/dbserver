@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import NavLink from './NavLink';
-import logo from '../assets/images/logos/lore_logo_text.png';
+import logo from '../assets/images/logos/lore_dblogo_text.png';
 
 export default (props) => {
   const {
@@ -17,7 +17,7 @@ export default (props) => {
             Menu
           </button>
           <Link to="/" className="navbar-brand">
-            <img src={logo} alt="Lore" style={{ height: '150%', marginTop: '-8px' }} />
+            <img src={logo} alt="Lore" style={{ height: '350%', marginTop: '-8px' }} />
           </Link>
         </div>
         <div className="navbar-collapse collapse text-uppercase">
