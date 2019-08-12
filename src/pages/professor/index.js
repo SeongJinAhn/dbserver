@@ -3,7 +3,7 @@ import Link from 'gatsby-link';
 import Template from '../../components/templates/Professor';
 import Markdown from '../../components/Markdown';
 import Feature from '../../components/home/Feature';
-
+import mhkim from '../../assets/images/people/prof.jpg'
 
 export default (props) => {
   return (
@@ -19,8 +19,9 @@ export default (props) => {
               description="Research Interest : "
             />
             <Feature
-              imageSrc="folder"
-              imageHeight="80px"
+              imageSrc={mhkim}
+              imageHeight="105px"
+              imageWidth='95px'
               imageMarginBottom="20px"
               title="MyoungHo Kim"
               description="Research Interest : "

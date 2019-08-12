@@ -12,12 +12,14 @@ export default (props) => {
             <ul className="featured-list featured-list-bordered">
               <Feature
                 imageSrc="https://github.com/SeongJinAhn/dbserver/blob/master/src/assets/images/people/heesoo.jpg?raw=true"
+                imageHeight="105px"
+                imageMarginBottom="20px"
                 title="HeeSoo Yoon"
                 description="Research Interest : "
               />
               <Feature
                 imageSrc="https://github.com/SeongJinAhn/dbserver/blob/master/src/assets/images/people/gukwon.jpg?raw=true"
-                imageHeight="60px"
+                imageHeight="105px"
                 imageMarginBottom="20px"
                 title="GukWon Ahn"
                 description="Research Interest : "

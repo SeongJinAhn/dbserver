@@ -6,6 +6,7 @@ export default (props) => {
     icon,
     imageSrc,
     imageHeight,
+    imageWidth,
     imageMarginBottom,
     title,
     description,
@@ -19,7 +20,7 @@ export default (props) => {
         {icon ? (
           <span className={`icon icon-${icon}`} />
         ) : (
-          <img src={imageSrc}  style={{ height: imageHeight, marginBottom: imageMarginBottom }} />
+          <img src={imageSrc}  style={{ height: imageHeight,width:imageWidth, marginBottom: imageMarginBottom }} />
         )}
       </div>
       <p className="featured-list-icon-text m-b-0">

@@ -10,9 +10,9 @@ export default (props) => {
             <h6 className="m-b text-uppercase">About</h6>
             <ul className="list-unstyled list-spaced">
               <li className="text-muted">
-                KAIST E3-1 3406 <br></br>
+                KAIST E3-1 3416, 3408 <br></br>
                 If you have any question, please ask it to {' '}
-                <a href="mailto:jhsuh@dbserver.kaist.ac.kr" style={{ color: 'white' }}>@JungHyuk Suh</a> <br></br>
+                <a href="mailto:kim.contact@dbserver.kaist.ac.kr" style={{ color: 'white' }}>@Lab ZZang</a> <br></br>
                 made by <a href="http://github.com/SeongJinAhn" style={{ color: 'white' }}>@SeongJin Ahn</a> <br></br>
               </li>
             </ul>

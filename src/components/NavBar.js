@@ -44,9 +44,10 @@ export default (props) => {
                 <li className="dropdown-category">
                   Our Research Area
                 </li>
-                <NavLink title="Query Process" url="/kepco/" location={location} />
-                <NavLink title="Group Recommendation" url="/bio/" location={location} />
-                <NavLink title="Graph Management" url="/samsung/" location={location} />
+                <NavLink title="Graph Data Management" url="/graphmanage/" location={location} />
+                <NavLink title="Graph Analysis" url="/graphanalysis/" location={location} />
+                <NavLink title="Hypergraph Analysis" url="/hyperanalysis/" location={location} />
+                <NavLink title="Time Series Analysis" url="/seriesanalysis/" location={location} />
               </ul>
             </li>
             <li className="dropdown">

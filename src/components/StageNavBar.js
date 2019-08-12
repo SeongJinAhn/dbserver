@@ -17,9 +17,10 @@ export default (props) => {
 
       <li className="nav-divider"></li>
       <li className="nav-header">Research</li>
-      <NavLink title="Query Process" url="/kepco/" location={location} />
-      <NavLink title="Group Recommendataion" url="/bio/" location={location} />
-      <NavLink title="Graph Management" url="/samsung/" location={location} />
+      <NavLink title="Graph Data Management" url="/graphmanage/" location={location} />
+      <NavLink title="Graph Analysis" url="/graphanalysis/" location={location} />
+      <NavLink title="Hypergraph Analysis" url="/hyperanalysis/" location={location} />
+      <NavLink title="Time Series Analysis" url="/seriesanalysis/" location={location} />
 
       <li className="nav-divider"></li>
       <li className="nav-header">Projects</li>
